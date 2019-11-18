@@ -7,7 +7,6 @@ public class Main {
         System.out.println("у вас насчету "+bankAccount.deposit(10000));
         while (true) {
             try {
-                System.out.println("вы сняли со счета 6000");
                 System.out.println("остаток на счету "+bankAccount.withDraw(6000));
             } catch (Exception e){
                 System.out.println(e.getMessage());
