@@ -28,11 +28,12 @@ public class Main {
                 System.out.println("My congratulations ! It's correct!");
                 System.out.println("+100 soms  for the right answer ");
                 System.out.println("Your balance: " + bankAccount.deposit(100));
+            }
 
-            } else {
+             else {
                 System.out.println("It isn't correct! You are Looser!  Right answer is " + sum);
 
-
+            }
             }
             System.out.println(" \n 2 example ");
             int a1 = (int) (Math.random() * 10);
@@ -47,7 +48,7 @@ public class Main {
                 System.out.println("+100 soms  for the right answer ");
                 System.out.println("Your balance: " + bankAccount.deposit(100));
             } else {
-                System.out.println("It isn't correct! You are Looser!   Right answer is " + sum);
+                System.out.println("It isn't correct! You are Looser!   Right answer is " + sum1);
             }
             System.out.println("\n 3 example ");
             int a2 = (int) (Math.random() * 10);
@@ -62,7 +63,7 @@ public class Main {
                 System.out.println("Your balance: " + bankAccount.deposit(100));
 
             } else {
-                System.out.println("It isn't correct! You are Looser!   Right answer is " + sum);
+                System.out.println("It isn't correct! You are Looser!   Right answer is " + sum2);
             }
             System.out.println("\n 4 example ");
             int a3 = (int) (Math.random() * 10);
@@ -77,7 +78,7 @@ public class Main {
                 System.out.println("Your balance: " + bankAccount.deposit(100));
 
             } else {
-                System.out.println("It isn't correct! You are Looser!   Right answer is " + sum);
+                System.out.println("It isn't correct! You are Looser!   Right answer is " + sum3);
             }
             System.out.println("\n 5 example ");
             int a4 = (int) (Math.random() * 10);
@@ -91,7 +92,7 @@ public class Main {
                 System.out.println("+100 soms  for the right answer ");
                 System.out.println("Your balance is : " + bankAccount.deposit(100));
             } else {
-                System.out.println("It isn't correct! You are Looser!   Right answer is " + sum);
+                System.out.println("It isn't correct! You are Looser!   Right answer is " + sum4);
 
 
             }
@@ -115,7 +116,7 @@ public class Main {
                 System.out.println("your balance is " + bankAccount.getAmount());
 
             }
-        }
+
 
         if (num == 2) {
             System.out.println("у вас насчету " + bankAccount.deposit(10000));
